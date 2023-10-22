@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Nastaliq+Urdu&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #363457;
+    color: #E7F0FF;
+}
+
 #header {
     margin:5%;
 }
+
+#header a {
+    margin-right:5%;
+    text-align:center;
+    text-decoration: none;
+    color: #E7F0FF;
+    transition-duration: 0.4s;
+}
+
+#header a:hover{
+    color: #EDEBA0;
+}
+
 #content {
     margin-left: 5%;
     width: 90%;
@@ -11,9 +32,92 @@
     margin-right: 2.5%;
     border: solid 2.5px;
     border-color: black;
+    border-radius: 100px;
 }
 #content p{
     margin-left:2.5%;
     font-size: 20px;
     line-height: 50px;
+}
+
+#insta{
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45px;
+    width:135px;
+    font-family: 'Grand Hotel', cursive;
+    font-size:22.5px;
+    border: 1px solid blue;
+    animation: 4s infinite glow;
+    display:inline;
+    margin-right:1%;
+}
+
+#insta a, #linkedin a{
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Grand Hotel', cursive;
+    font-size:22.5px;
+}
+
+#insta:hover{
+    cursor:pointer;
+}
+
+@keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+  @-webkit-keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+
+#insta_pic{
+    height:40px;
+    width:40px;
+}
+
+#linkedin{
+    background-image: url(https://i0.wp.com/www.alphr.com/wp-content/uploads/2023/08/1637655738-linkedin-101-hero2x.jpg?fit=1801%2C950&ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45px;
+    width:135px;
+    display:inline;
+    border: solid 1px;
+    border-color: black;
+    color:transparent;
+    margin-left:1%;
+}
+
+#linkedin a{
+    color:transparent;
+}
+
+#linkedin:hover{
+    cursor:pointer;
 }
